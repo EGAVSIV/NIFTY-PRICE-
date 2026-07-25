@@ -241,7 +241,7 @@ df = pd.DataFrame(table_data)
 
 st.dataframe(
     df,
-    use_container_width=True,
+    width=stretch,
     hide_index=True,
     column_config={
         "Prev Cap (₹ Cr)": st.column_config.NumberColumn(format="₹ %,.2f"),
